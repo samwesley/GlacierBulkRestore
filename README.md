@@ -2,12 +2,14 @@
 Restore objects stored in S3 under the Glacier storage class based on 'directories' and 'subdirectories'
 
 # Requirements:
-Python
+Python - 
   Windows: https://www.python.org/downloads/windows/
   Mac:https://www.python.org/downloads/mac-osx/
-Boto3
+  
+Boto3 - 
   pip install boto3
-AWSCLI
+  
+AWSCLI - 
   pip install awscli
 
 # Steps:
