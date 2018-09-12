@@ -2,9 +2,8 @@
 Restore objects stored in S3 under the Glacier storage class based on 'directories' and 'subdirectories'
 
 # Requirements:
-Pip
-Python
-Boto3
+Python,
+Boto3,
 AWSCLI
 
 # Steps:
