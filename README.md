@@ -18,5 +18,5 @@ AWSCLI -
 2. Run GlacierRestore.py with “python GlacierRestore.py”
 *This is using the "Standard" Glacier restore which will take 3-5 hours*
 3. Navigate to the local folder that you will restore S3 Objects to
-4. Execute $ aws s3 cp --recursive --force-glacier-transfer s3://BUCKETNAME/PATH/TO/FOLDER/ ./
-*This will download all objects in the above path to your current directory. Folders and subfolder structure will remain intact.*
+4. Execute $ aws s3 cp --recursive --force-glacier-transfer "s3://BUCKETNAME/PATH/TO/FOLDER/" ./
+*This will download all objects in the above path to your current directory. Folders and subfolder structure will remain intact. Double quotations are needed if file names have spaces.*
